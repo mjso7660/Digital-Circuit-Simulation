@@ -1,19 +1,27 @@
-![Alt text](cucc.jpg?raw=true "Title")
+![Alt text](circuit.png?raw=true "Title")
 # Digital Circuit Simulation
 Simluation of digital circuit using python and web browser
 
 ## Getting Started
+The test cases are in the tests/ directory. tests/README.txt explains the syntax of the simulator input files. You can use the following command to run all the tests.
+```
+python circuit test.py
+```
 
-dd
+To work on a single test case, run the simulator on the test case with the following
+command:
+```
+python circuit.py < tests/1gate.in > out
+```
+
+To use the visualizer, first produce a simulation trace.
+```
+TRACE=jsonp python circuit.py < tests/1gate.in > circuit.jsonp
+```
+Then use Google Chrome to open visualizer/bin/visualizer.html
 
 ### Prerequisites
-dd
-```
-pip install gspread oauth2client
-```
-
-## Algorithm
-Algorithm for stable marriage, hospital/resident problem. For more, see (https://en.wikipedia.org/wiki/Stable_marriage_problem)
+None
 
 ## Authors
 
