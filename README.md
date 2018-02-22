@@ -23,6 +23,6 @@ Then use Google Chrome to open visualizer/bin/visualizer.html
 ### Prerequisites
 None
 
-## Authors
+## Citation
 
-* **Min Joon So** - *Initial work* - [mjso7660](https://github.com/mjso7660)
+Erik Demaine, and Srinivas Devadas. 6.006 Introduction to Algorithms. Fall 2011. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA.
